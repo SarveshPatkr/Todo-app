@@ -1,0 +1,16 @@
+div{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 2vh;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New'
+}
+p{
+    overflow-wrap: break-word;
+    overflow: hidden;
+    /* overflow-wrap: normal; */
+    
+}
