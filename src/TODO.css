@@ -1,16 +1,37 @@
 div{
-    border: 2px solid black;
+    border: 2px solid rgb(136, 136, 136);
     display: flex;
+    margin: auto;
+    padding: 2px;
     align-items: center;
+    justify-content: space-between;
     width: 80%;
     padding: 2vh;
     margin: 10px;
     border-radius: 10px;
+    /* min-height: 80vh; */
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New'
+}
+.para{
+    min-height: 0vh;
 }
 p{
     overflow-wrap: break-word;
     overflow: hidden;
     /* overflow-wrap: normal; */
     
+}
+/* button{
+    position: relative;
+    right: auto;
+} */
+.deltbtn{
+
+    position: static;
+    right: 1px;
+    border: none;
+    width: auto;
+    margin: 0;
+    padding: 0px;
+
 }
